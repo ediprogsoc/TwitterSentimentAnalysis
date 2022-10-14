@@ -1,6 +1,6 @@
 from pydoc import cli
 import tweepy
-import TextBlob
+from textblob import TextBlob
 import pandas as pd
 import matplotlib as plt
 
@@ -41,7 +41,7 @@ class DataAnalysis:
 class DataVisualiser:
     #pie chart from nouns
     #nounFrequencies as pie chart, maybe only take top ten nouns.
-    tweets = [sallljflks]
+    tweets = ["I love Boris."]
 
     allNouns = []
     for tweet in tweets:
